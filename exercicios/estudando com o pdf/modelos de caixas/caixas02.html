@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags e Semantic Tags</title>
+    <style>
+        body{
+            font: 1em Arial, Helvetica, sans-serif;
+            background-color: peachpuff;
+        }
+        
+        h1{
+            font-weight: bold;
+        }
+        article#cabeçalho{
+            background-color: snow;
+            width: 400px;
+            margin: auto;
+            padding: 1px 10px;
+            border-width: 2px;
+            border-style:solid;
+            border-color: black;
+            text-align: center;
+            box-shadow: 3px 5px 4px black;
+            /*sombra aqui*/
+        }
+
+        article.exemplo1{
+            background-color: snow;
+            width: 400px;
+            margin: 50px 50px 50px 30px;
+            padding: 1px 10px;
+            border-width: 2px;
+            border-style:solid;
+            border-color: black;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 3px 5px 4px black;
+        }
+
+        aside.periferico{
+            background-color: snow;
+            width: 400px;
+            margin: -212px 50px 50px 480px;
+            block
+            padding: 1px 10px;
+            border-width:2px ;
+            border-style:solid;
+            border-color:black;
+            border-radius: 10px 20px 30px 40px;
+            text-align: center;
+            box-shadow: 3px 5px 4px black;
+        }
+
+       article.exemplo3{
+        background-color: snow;
+            width: 400px;
+            margin: auto;
+            padding: 1px 10px;
+            border-width: 2px;
+            border-style:solid;
+            border-color: black;
+            border-radius: 10px 30px;
+            text-align: center;
+            box-shadow: 3px 5px 4px black;
+       }
+    </style>
+</head>
+<body>
+    <article id="cabeçalho">
+        <h1>Usando sombras</h1>
+       <p>Vamos aprender a usar sombras com esse exemplo simples.</p>
+    </article>
+    <main>
+        <section>
+            <article class="exemplo1">
+                <h2>Vértices Arredondadas</h2>
+                <p>Podemos arredondar os vértices usando uma declaralão simples isando a propriedade border-radius. Adicione o seguinte comando ao seletor do artigo do exemplo que estamos criando: border-radius:10px</p>
+                
+            </article>
+            
+            <article>
+                <aside class="periferico">
+                    <h2>Quatro medidas de borda</h2>
+                    <p>Se for necessário, podemos indicar quatro medidas diferentes, uma para cada vértice. Olhe atentamente para o resultado abaixo e perceba que cada ponta está diferente: border-radius: 10px 20px 30px 40px</p>
+                </aside>
+            </article>
+            <article class="exemplo3">
+                <h2>Duas medidas de borda</h2>
+                <p>Assim como fizemos com as margens, também é possível indicar apenas dois valores, o que vai agir em vértices intercalados, partindo do canto superior esquerdo. : border-radius:10px 30px.
+                </p>
+            </article>
+        </section>
+    </main>
+
+  
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+      <img src="imagens/grande.png" alt="imagem flexível">
+    </picture>
+    <picture>
+        <source media="(max-width: 350px)" srcset="motop.jpeg" type="image/jpeg">
+        <source media="(max-width: 750px )" srcset="motop.jpeg" type="image/jpeg">
+        <source media="(max-width: 1050px )" srcset="imagens/motom.jpeg" type="image/jpeg">
+        <img src="imagens/motog.jpeg" alt="imagem flexivel">
+    </picture>
+    <h1>REPRODUZINDO AUDIOS</h1> 
+    <p> usamos a tag audio e parametros: controls e autoplay dentro da tag</p>
+    <audio src="midia/MC IG - Sorriso no Rosto (GR6 Explode) DJ Murillo e LT no Beat, DJ Glenner.mp3" controls autoplay ></audio>
+    <p> Para caso de alguns navegadores não aceitarem o formato MP3, temos os formator WAV e OGG</p>
+    <audio preload="auto" controls autoplay>
+        <source src="midia/MC IG - Sorriso no Rosto (GR6 Explode) DJ Murillo e LT no Beat, DJ Glenner.mp3" type="audio/mpeg">
+        <source src="midia/MC IG - Sorriso no Rosto (GR6 Explode) DJ Murillo e LT no Beat, DJ Glenner.mp3" type="audio/ogg">
+        <source src="midia/MC IG - Sorriso no Rosto (GR6 Explode) DJ Murillo e LT no Beat, DJ Glenner.mp3" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir o audio. <a href="midia/MC IG - Sorriso no Rosto (GR6 Explode) DJ Murillo e LT no Beat, DJ Glenner.mp3">Clique aqui para baixar o audio</a></p>
+        
+    </audio>
+    
+</body>
+</html>
