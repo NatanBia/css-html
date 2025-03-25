@@ -1,0 +1,159 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype'), url('Korteque.ttf'), format('truetype');
+} 
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+
+div > a {
+    display: inline-block;
+    
+}
+
+
+
+a:hover {
+    
+    text-decoration: solid;
+    background-color: #A3B18A;
+} 
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: ;
+     
+}
+
+h2{ 
+    font-family: 'idroid';
+    text-align: center;
+
+}
+h3{ 
+    font-family: 'idroid';
+    text-align: center;
+
+}
+
+p{
+    text-align: justify;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    word-spacing: -1px;
+}
+
+nav{
+    word-spacing: 6px;
+    font-weight: bold;
+}
+
+
+header{
+    color: white;
+    background-color: #36c374;
+    background-image: linear-gradient(to top, #1A5C38, #36c374) ;
+    margin: -15px -10px 0px -10px;
+    padding: 5px;
+}
+
+h2{
+    color:#1A5C38;
+    
+    text-align: left;
+}
+
+h3{
+    text-align: left;
+    color: #1A5C38;
+}
+
+.primeiro{
+    text-align: center;
+}
+
+main{
+    background-color: #84E1AD;
+    padding: 90px;
+    margin: 10px;
+    
+
+}
+article{
+    background-color: white;
+    padding: 10px;
+    margin: -100px 0px 5px 5px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+img{
+    height: 230px;
+}
+
+.segundo{
+    height: 206px;
+}
+
+.terceiro{
+    max-width: 100%;
+    height: auto;
+    margin: 5px 50px 5px 150px;
+height: 250px;
+}
+
+aside{
+    background-color: #1A5C38;
+    margin: 5px -10px 5px -10px;
+}
+iframe{
+    width:  -550px;
+    margin: 10px 10px 10px 50px;
+}
+.ultimo{
+    background-color: #84e1ac88;
+    padding: 3px 3px 0px 3px;
+    margin: 10px 10px 10px 10px  ;
+    border-style: none;
+    border-radius: 10px;
+    
+} 
+
+.coluna{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.list-container {
+    display: flex; /* Usar flexbox para organizar os itens */
+    gap: 20px; /* Espaçamento entre as colunas */
+}
+
+.coluna{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: underline;
+}
+
+h4{
+    color: white;
+    background-color: #1A5C38;
+    margin: -2px -2px 0px -2px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+    

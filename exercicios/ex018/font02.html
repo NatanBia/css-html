@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas baixadas</title>
+    <style>
+        @font-face {
+            font-family:'korteque';
+            src: url('Korteque.otf') format('opentype'), url('Korteque.ttf'), format('truetype');
+
+            font-weight: normal;
+            font-style: normal;
+            }
+            @font-face {
+                font-family:'winter' ;
+                src: url('Winter Minie.otf') format('opentype'), url('Winter Minie.ttf') format('truetype');}
+        
+        /*Tipos de format()
+        opentype()
+        truetype(
+        embedded-opentype()
+        truetype-aat( Apple Advanced Typography)
+        svg()
+
+        */
+
+        body{
+            font-family: 'korteque', Helvetica, sans-serif;
+
+        }
+        h1{
+            font-family: 'winter', Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes externas baixadas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi nulla corrupti, deserunt, magnam nostrum cum officia harum, consectetur molestiae facere sequi dignissimos deleniti aut aliquid quos. Sunt nobis earum velit.</p>
+    
+</body>
+</html>
