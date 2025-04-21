@@ -66,6 +66,7 @@ p{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+    padding-top: -50px;
 }
 
 header a, footer a{
@@ -87,7 +88,7 @@ footer{
 }
 
 section{
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
@@ -96,7 +97,8 @@ section{
 }
 
 section > p{
- padding-top: 1.5em;
+ padding-top: -2em;
+ padding-bottom: 2em;
 }
 
 section.normal{
